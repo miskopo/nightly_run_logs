@@ -1,0 +1,12 @@
+# Failed tests:
+- `nfs_nsswitch_restore`: failed with timeout, based on reecnt outages I suppose it's not an issue, will observe it, however
+- `test_advise`: same as above, seems like connection problem rather than an test issue
+- `test_http_kdc_proxy`: same as above
+- `test_installation_TestInstallReplicaAgainstSpecificServer`: timeout again
+- `test_installation_TestInstallWithCA2`: and again
+- `test_ipahealthcheck`: [8506](https://pagure.io/freeipa/issue/8506), [8779](https://pagure.io/freeipa/issue/8779)
+- `test_replica_promotion_TestHiddenReplicaPromotion`: timeout errors
+- `test_replica_promotion_TestRenewalMaster`: same as above
+- `test_replication_layouts_TestStarTopologyWithCA`: timeout again
+- `test_trust`: and again
+- `test_upgrade`: sorry, still timeout
